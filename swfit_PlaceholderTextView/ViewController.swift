@@ -26,7 +26,6 @@ class ViewController: UIViewController {
         Placeholder.PlaceholderColor=UIColor.redColor()
         let subView=PlaceholderTextView(frame: CGRectMake(20 , 100 , ScreenWidth-20*2 , 100 ), textContainer: nil, Placeholder: Placeholder)
         self.view.addSubview(subView)
-        subView.backgroundColor=UIColor.greenColor()
         
 
         
