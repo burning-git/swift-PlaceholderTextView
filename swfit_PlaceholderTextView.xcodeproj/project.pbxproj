@@ -13,6 +13,7 @@
 		662E84941A383154005B84C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662E84931A383154005B84C5 /* Images.xcassets */; };
 		662E84971A383154005B84C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662E84951A383154005B84C5 /* LaunchScreen.xib */; };
 		662E84A31A383154005B84C5 /* swfit_PlaceholderTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662E84A21A383154005B84C5 /* swfit_PlaceholderTextViewTests.swift */; };
+		662E84AD1A383189005B84C5 /* PlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662E84AC1A383189005B84C5 /* PlaceholderTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		662E849C1A383154005B84C5 /* swfit_PlaceholderTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swfit_PlaceholderTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		662E84A11A383154005B84C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662E84A21A383154005B84C5 /* swfit_PlaceholderTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swfit_PlaceholderTextViewTests.swift; sourceTree = "<group>"; };
+		662E84AC1A383189005B84C5 /* PlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		662E84891A383154005B84C5 /* swfit_PlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
+				662E84AC1A383189005B84C5 /* PlaceholderTextView.swift */,
 				662E848C1A383154005B84C5 /* AppDelegate.swift */,
 				662E848E1A383154005B84C5 /* ViewController.swift */,
 				662E84901A383154005B84C5 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662E84AD1A383189005B84C5 /* PlaceholderTextView.swift in Sources */,
 				662E848F1A383154005B84C5 /* ViewController.swift in Sources */,
 				662E848D1A383154005B84C5 /* AppDelegate.swift in Sources */,
 			);
